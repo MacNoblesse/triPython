@@ -15,4 +15,5 @@ for f in files:
     output_dir.mkdir(exist_ok=True)
     f.rename(output_dir / f.name)
 
-time.sleep(180) #Suspendre l'execution du programme pendant une duree specifiee
+
+time.sleep(180) #toutes les 3 mins
